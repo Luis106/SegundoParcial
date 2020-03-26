@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="scrip.js"></script>
+        <link rel="stylesheet" type="text/css" href="css.css">
+    </head>
+
+    <body>
+
+    <div class = "pri">
+        <h1>Producción de Manzana</h1>
+        <img src="res/apple.png" alt="" height="100" width="100" id = "myImage">	<br>
+            
+        <div class = "sec">
+            <p> Producción Total:   <input type="number" id="T" name="txt_PT" value="250">  <button onclick="Est_T()">Número de Manzanas Totales</button> </p><hr>
+            <p> Producción Actual:  <input type="number" id="A" name="txt_PA" value ="0" disabled >  <button onclick="Est_A()">Número de Manzanas Actuales </button> </p> 
+            <button onclick="Re_Act(10)">+10</button> <button onclick="Re_Act(15)">+15</button> <button onclick="Re_Act(30)">+30</button> <button onclick="Re_Act(50)">+50</button> <hr>
+               
+                <div class="ter">
+                    <P> Porcentaje: <label id="Por"> 0 </label> % </P> 
+                    <button onclick="Por()"> Calcular </button>
+                </div>
+                
+            
+        </div>
+    </div>
+
+    </body>
+</html>

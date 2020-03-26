@@ -1,0 +1,28 @@
+body
+    {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+   }
+div.pri { 
+	
+	border: 3px solid black;
+    padding: 10px;
+    width: 500px;
+}
+h1{
+    text-align: center;
+}
+div.sec { 
+    width: 500px;
+}
+div.ter { 
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
